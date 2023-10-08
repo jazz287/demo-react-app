@@ -3,6 +3,8 @@ import Fries from './Fries'
 import LoginForm from './LoginForm';
 import Die from './Die'
 import DiceRolls from './DiceRolls';
+import RandomPokemon from './RandomPokemon';
+import Greeter from './Greeter';
 export default function App() {
   return (
     <div>
@@ -11,6 +13,8 @@ export default function App() {
    <LoginForm/>
    <Die/>
    <DiceRolls/>
+   <RandomPokemon/>
+   <Greeter name = "Bill"/>
    </div>
   );
 }
